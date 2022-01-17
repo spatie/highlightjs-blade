@@ -1,3 +1,8 @@
+/**
+ * Based on https://github.com/highlightjs/highlight.js/blob/main/src/languages/php-template.js
+ * and https://github.com/miken32/highlightjs-blade.
+ */
+
 module.exports = function (hljs) {
     const COMMENT = hljs.COMMENT(/\{\{--/, /--\}\}/);
 
