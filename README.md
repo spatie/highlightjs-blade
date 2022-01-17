@@ -1,7 +1,5 @@
 # Blade language definition for Highlight.js
 
-[![Tests](https://github.com/:vendor_slug/:package_slug/actions/workflows/run-tests.yml/badge.svg?branch=main)](https://github.com/:vendor_slug/:package_slug/actions/workflows/run-tests.yml)
-
 Syntax implementation of [Laravel's](https://laravel.com/)'s Blade language
 for [highlight.js](https://github.com/highlightjs/highlight.js).
 
