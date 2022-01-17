@@ -14,9 +14,30 @@ We highly appreciate you sending us a postcard from your hometown, mentioning wh
 You'll find our address on [our contact page](https://spatie.be/about-us). We publish all received postcards
 on [our virtual postcard wall](https://spatie.be/open-source/postcards).
 
+## Installation
+
+This package can be installed from NPM using `npm` or `yarn`:
+
+```bash
+yarn install highlightjs-blade
+```
+
 ## Usage
 
 Simply include the Highlight.js library in your webpage or Node app, then load this module.
+
+### With Node or another build system
+
+If you're using Node / Webpack / Rollup / Browserify, etc, simply require the language module, then register it with
+Highlight.js.
+
+```javascript
+var hljs = require('highlightjs');
+var hljsBlade = require('highlightjs-blade');
+
+hljs.registerLanguage("blade", hljsBlade);
+hljs.initHighlightingOnLoad();
+```
 
 ### Static website or simple usage
 
@@ -46,19 +67,6 @@ module is just a CDN build of the language, so it will register itself as the Ja
 ```
 
 - More info: <https://unpkg.com>
-
-### With Node or another build system
-
-If you're using Node / Webpack / Rollup / Browserify, etc, simply require the language module, then register it with
-Highlight.js.
-
-```javascript
-var hljs = require('highlightjs');
-var hljsBlade = require('highlightjs-blade');
-
-hljs.registerLanguage("blade", hljsBlade);
-hljs.initHighlightingOnLoad();
-```
 
 ### React
 
@@ -107,7 +115,7 @@ Please see [CONTRIBUTING](.github/CONTRIBUTING.md) for details.
 ⚠️ These instructions are only for contributing to this package. If you just want to use the language definition, please
 refer to the [Usage](#usage) section above.
 
-To build a distribution version of this module you need to use tools provided by Highlight.js.
+To build a distribution version of this module you need to use tools provided by Highlight.js. Please refer to the [language contribution guide](https://github.com/highlightjs/highlight.js/blob/main/extra/3RD_PARTY_QUICK_START.md) for more details on building this package.
 
 1. Checkout `highlightjs/highlight.js` from GitHub.
 2. Create the `extra` folder in the root directory, if missing.
