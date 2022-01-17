@@ -1,0 +1,25 @@
+{
+  "name": "highlightjs-blade",
+  "version": "0.0.1",
+  "description": "highlight.js syntax definition for Laravel's Blade template language",
+  "main": "src/languages/blade.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:spatie/highlightjs-blade.git"
+  },
+  "keywords": [
+    "Laravel",
+    "Blade",
+    "highlight.js",
+    "highlightjs",
+    "syntax"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spatie/highlightjs-blade/issues"
+  },
+  "homepage": "https://github.com/spatie/highlightjs-blade#readme"
+}
