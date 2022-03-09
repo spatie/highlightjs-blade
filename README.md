@@ -1,3 +1,6 @@
+
+[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/support-ukraine.svg?t=1" />](https://supportukrainenow.org)
+
 # Blade language definition for Highlight.js
 
 Syntax implementation of [Laravel's](https://laravel.com/)'s Blade language
