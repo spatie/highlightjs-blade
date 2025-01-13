@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "highlight.js syntax definition for Laravel's Blade template language",
   "main": "src/languages/blade.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
